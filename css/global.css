@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--GENERAL CSS--*/
+html, body{height:100%;}
+ul{margin:0; padding:0;}
+li{list-style:none;}
+img{max-width:100%;}
+p, label{margin:0; padding:0;}
+a:hover{text-decoration:none;}
+h1, h2, h3, h4, h5, h6{padding:0; margin:0;}
+figure{margin:0;}
+
+/*--TRANSITIONS--*/
+a, i{-o-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -khtml-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -ms-transition: all 0.2s linear; transition: all 0.2s linear;}
+.bg-color-transition{-o-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; -khtml-transition:background-color 0.2s linear; -webkit-transition:background-color 0.2s linear; -ms-transition:background-color 0.2s linear; transition:background-color 0.2s linear;}
+
+/*--Placeholder--*/
+::-webkit-input-placeholder{opacity:1; color:#000 !important;}
+::-moz-placeholder{opacity:1; color:#000 !important;}
+:-ms-input-placeholder{opacity:1; color:#000 !important;}
+:-moz-placeholder{opacity:1; color:#000 !important;}
+
+/*--FONTS--*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.lato-font{font-family: 'Lato', sans-serif;}
+@font-face {
+  font-family: 'Oceania-Bold';
+  src: url('../fonts/Oceania-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Oceania-Bold.woff') format('woff'), url('../fonts/Oceania-Bold.ttf')  format('truetype'), url('../fonts/Oceania-Bold.svg#Oceania-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.oceania-bold-font{font-family: 'Oceania-Bold';}
+
+/*--Row and Rows--*/
+.row.rows{margin:-15px;}
+.row.rows .columns{padding:15px;}
+
+/*--Headdings--*/
+h1, h2, h3, h4, h5, h6{font-family: 'Oceania-Bold';}
+h2{font-size:36px;}
+h5{font-size:24px;}
+h6{font-size:18px;}
+@media(max-width:1199px){
+	h2{font-size:32px;}	
+	h5{font-size:22px;}
+	h6{font-size:17px;}
+}
+@media(max-width:991px){
+	h2{font-size:28px;}	
+	h5{font-size:20px;}
+	h6{font-size:16px;}
+}
+@media(max-width:767px){
+	h2{font-size:26px;}
+	h5{font-size:18px;}
+	h6{font-size:15px;}
+}
+@media(max-width:575px){
+	h2{font-size:24px;}	
+}
+
+/*--Paragraph--*/
+p{color:#56585c; font-size:14px; color:#56585c; line-height:1.3;}
