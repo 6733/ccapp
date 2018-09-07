@@ -1,13 +1,11 @@
 $(document).ready(function(){
 
-
-	$('#example').DataTable({
+	$('#bankaccounts, #bankaccounts2').DataTable({
         "paging":   false,
 		"info":     false,
 		"searching": false,
 		"ordering": true
     });
-
 
 	//Mobile Menu
 	$('.nav-icon').click(function(){
