@@ -19,4 +19,12 @@ $(document).ready(function(){
 		$('ul.menu').stop().slideUp('fast');
 	});
 	
+	//Sub Menu
+	$('.dashboard-menu ul li').each(function(){
+		$(this).find('a').click(function(){
+			$(this).next('.submenu').stop().slideToggle('fast');
+			return false;
+		});						  
+	});
+	
 });
