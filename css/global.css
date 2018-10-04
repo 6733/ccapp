@@ -16,10 +16,10 @@ a, i{-o-transition: all 0.2s linear; -moz-transition: all 0.2s linear; -khtml-tr
 .bg-color-transition{-o-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; -khtml-transition:background-color 0.2s linear; -webkit-transition:background-color 0.2s linear; -ms-transition:background-color 0.2s linear; transition:background-color 0.2s linear;}
 
 /*--Placeholder--*/
-::-webkit-input-placeholder{opacity:1; color:#000 !important;}
-::-moz-placeholder{opacity:1; color:#000 !important;}
-:-ms-input-placeholder{opacity:1; color:#000 !important;}
-:-moz-placeholder{opacity:1; color:#000 !important;}
+::-webkit-input-placeholder{opacity:1; color:#b6c1c6 !important;}
+::-moz-placeholder{opacity:1; color:#b6c1c6 !important;}
+:-ms-input-placeholder{opacity:1; color:#b6c1c6 !important;}
+:-moz-placeholder{opacity:1; color:#b6c1c6 !important;}
 
 /*--FONTS--*/
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');

@@ -27,4 +27,7 @@ $(document).ready(function(){
 		});						  
 	});
 	
+	//Nice Select
+	$('select').niceSelect();
+	
 });
